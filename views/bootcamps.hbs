@@ -1,0 +1,33 @@
+</br>
+<h3>Check ours bootcamps!</h3>
+</br>
+<div class="row row-cols-1 row-cols-md-4 g-4">
+  {{#each bootcamps}}
+    <div id="bootcamp-{{this.id}}" class="col">
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">{{this.type}}</div>
+        <div class="card-body">
+          <h5 class="card-title">{{this.name}}</h5>
+          <a class="btn btn-light" href="/bootcamps/{{this.id}}">See more</a>
+
+          {{!-- BOTON BORRAR LADO CLIENTE --}}
+          <button type="button" value="{{this.id}}" class="delete-btn btn btn-danger">
+            Delete
+          </button>
+
+
+          {{!-- BOTON BORRAR LADO SERVIDOR --}}
+          {{!-- <form class="d-inline" action="/bootcamps/{{this.id}}/delete" method="post">
+            <button type="submit" class="btn btn-danger">Delete SSR</a>
+          </form> --}}
+
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
+
+<a class="btn btn-warning" href="/bootcamps/new">Create new course</a>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/js/delete.js"></script>

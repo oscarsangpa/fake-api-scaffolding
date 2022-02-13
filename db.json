@@ -1,79 +1,75 @@
 {
-  "cities":[
-     {
-        "id":1,
-        "name":"Barcelona"
-     },
-     {
-        "id":2,
-        "name":"Madrid"
-     },
-     {
-        "id":3,
-        "name":"Miami"
-     },
-     {
-        "id":4,
-        "name":"Paris"
-     }
+  "cities": [
+    {
+      "id": 1,
+      "name": "Barcelona"
+    },
+    {
+      "id": 2,
+      "name": "Madrid"
+    },
+    {
+      "id": 3,
+      "name": "Miami"
+    },
+    {
+      "id": 4,
+      "name": "Paris"
+    }
   ],
-  "courses":[
-     {
-        "id":1,
-        "name":"WebDev",
-        "type":"Full Time"
-     },
-     {
-        "id":2,
-        "name":"WebDev",
-        "type":"Part Time"
-     },
-     {
-        "id":3,
-        "name":"UX/UI",
-        "type":"Full Time"
-     },
-     {
-        "id":4,
-        "name":"UX/UI",
-        "type":"Part Time"
-     }
-  ],
-  "bootcamps":[
-     {
-        "id":1,
-        "cityId":1,
-        "courseId":1
-     },
-     {
-        "id":2,
-        "cityId":2,
-        "courseId":2
-     },
-     {
-        "id":3,
-        "cityId":3,
-        "courseId":1
-     },
-     {
-        "id":4,
-        "cityId":4,
-        "courseId":2
-     },
-     {
-        "id":5,
-        "cityId":2,
-        "courseId":3
-     },
-     {
-        "id":6,
-        "cityId":3,
-        "courseId":4
-     },
-     {
-        "id":7,
-        "cityId":1,
-        "courseId":3
-     }
+  "bootcamps": [
+    {
+      "id": 1,
+      "name": "WebDev",
+      "type": "Full Time",
+      "description": "Join our Web Development bootcamp and get the hands-on skills you need to land a job in the growing tech industry. Learn HTML, CSS, Javascript, React, and much more. Become a full-stack developer in just 9 weeks full time or 24 weeks part time (no previous IT background is required!). You can learn in person or remotely, find all the information here."
+    },
+    {
+      "id": 2,
+      "name": "WebDev",
+      "type": "Part Time",
+      "description": "Join our Web Development bootcamp and get the hands-on skills you need to land a job in the growing tech industry. Learn HTML, CSS, Javascript, React, and much more. Become a full-stack developer in just 9 weeks full time or 24 weeks part time (no previous IT background is required!). You can learn in person or remotely, find all the information here."
+    },
+    {
+      "id": 3,
+      "name": "UX/UI",
+      "type": "Full Time",
+      "description": "Join our UX UI Design immersive bootcamp and get the hands-on skills you need to land a job in the growing tech industry. Learn user experience, research, Figma, design thinking, and user interface to be part of any company's workforce. Become a UX UI Designer in just 9 weeks full time or 24 weeks part time without any previous IT background."
+    },
+    {
+      "id": 4,
+      "name": "UX/UI",
+      "type": "Part Time",
+      "description": "Join our UX UI Design immersive bootcamp and get the hands-on skills you need to land a job in the growing tech industry. Learn user experience, research, Figma, design thinking, and user interface to be part of any company's workforce. Become a UX UI Designer in just 9 weeks full time or 24 weeks part time without any previous IT background."
+    },
+    {
+      "id": 5,
+      "name": "Data",
+      "type": "Full Time",
+      "description": "Join our Data Analytics immersive bootcamp and get the hands-on skills you need to land a job in the growing tech industry. Learn Python, SQL, Tableau, and statistics to be part of any company's workforce and become a Data Analyst in just 9 weeks full time or 24 weeks part time without any previous IT background."
+    },
+    {
+      "id": 6,
+      "name": "Data Analitycs",
+      "type": "Part Time",
+      "description": "Join our Data Analytics immersive bootcamp and get the hands-on skills you need to land a job in the growing tech industry. Learn Python, SQL, Tableau, and statistics to be part of any company's workforce and become a Data Analyst in just 9 weeks full time or 24 weeks part time without any previous IT background."
+    },
+    {
+      "id": 7,
+      "name": "Cibersecurity",
+      "type": "Full Time",
+      "description": "Join our Cybersecurity bootcamp powered by Cybint and get the hands-on skills you need to land a job in the growing cybersecurity industry. Develop the knowledge you require to be part of any company's cybersecurity workforce. Become a cybersecurity professional in just 12 weeks or 24 weeks without any previous IT background."
+    },
+    {
+      "id": 6,
+      "name": "Cibersecurity",
+      "type": "Part Time",
+      "description": "Join our Cybersecurity bootcamp powered by Cybint and get the hands-on skills you need to land a job in the growing cybersecurity industry. Develop the knowledge you require to be part of any company's cybersecurity workforce. Become a cybersecurity professional in just 12 weeks or 24 weeks without any previous IT background."
+    },
+    {
+      "name": "perico",
+      "type": "Full Time",
+      "id": 8
+    }
   ]
 }
